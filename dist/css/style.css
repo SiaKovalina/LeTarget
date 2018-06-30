@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url(../fonts/Montserrat-Regular.ttf) format "ttf"; }
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url(../fonts/Montserrat-SemiBold.ttf) format "ttf"; }
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+a, p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
+
+p {
+  font-size: 14px; }
+
+.text-decor:before {
+  content: '';
+  background: #ffeb3b;
+  height: 8px;
+  position: absolute;
+  width: 100%;
+  z-index: -1; }
+
+.navbar {
+  text-transform: uppercase;
+  padding-top: 50px; }
+  .navbar li:last-child {
+    margin-left: 100px; }
+    .navbar li:last-child .nav-tel-wrapper a:first-child {
+      padding-bottom: 0; }
+    .navbar li:last-child .nav-tel-wrapper a:last-child {
+      padding-top: 0; }
+  .navbar .text-decor:before {
+    bottom: 10px; }
+
+.home {
+  margin-top: 98px; }
+  .home h1 {
+    max-width: 799px;
+    margin-bottom: 70px;
+    font-size: 36px; }
+
+.telephone-icon {
+  width: 27px;
+  height: 27px;
+  margin-right: 12px; }
+
+.home-card-1, .home-card-2, .home-card-3 {
+  padding: 25px 95px 25px 50px;
+  height: 235px;
+  text-transform: uppercase; }
+
+.home-card-1 a.btn, .home-card-2 a.btn, .home-card-3 a.btn {
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  width: 135px;
+  padding: 0 15px;
+  border-radius: 0;
+  line-height: 40px;
+  border-width: 1px;
+  border-style: solid; }
+
+.home-card-1 {
+  background: #ffeb3b;
+  color: #424242; }
+  .home-card-1 a.btn {
+    color: #424242;
+    border-color: #424242; }
+
+.home-card-2 {
+  background: #9d9d9d;
+  color: #fff; }
+  .home-card-2 a.btn {
+    color: #fff;
+    border-color: #fff; }
+
+.home-card-3 {
+  box-shadow: 0px 2px 17.9px 3.2px rgba(0, 0, 0, 0.22);
+  background: #fff; }
+  .home-card-3 a.btn {
+    color: #424242;
+    border-color: #424242; }
+
+.card-content-wrapper {
+  position: relative; }
+  .card-content-wrapper h2 {
+    padding-bottom: 27px;
+    display: inline-block; }
+
+.home-card-arrow {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 7px; }
+  .home-card-arrow img {
+    width: 20px;
+    height: 15px; }
+
+.bg-home {
+  background: url(../images/home-1.jpg) center/cover no-repeat;
+  margin-top: -160px;
+  height: 700px;
+  width: 100%; }
+
+#your-exclusive-agent a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 0;
+  line-height: 55px;
+  font-size: 16px;
+  padding: 0 35px; }
+
+#your-exclusive-agent .text-decor {
+  display: inline-block;
+  width: auto;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+
+#your-exclusive-agent .text-decor:before {
+  bottom: 2px; }
+
+#your-exclusive-agent h2 {
+  max-width: 450px;
+  margin-bottom: 50px; }
+
+#your-exclusive-agent img {
+  width: 100%; }
+
+#your-exclusive-agent p {
+  line-height: 24px; }
+
+#your-exclusive-agent a {
+  color: #424242;
+  background: #ffeb3b; }
